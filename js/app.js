@@ -346,21 +346,18 @@ if (c6==6){alert ('Your chances of guessing have expired, my favourite football 
 
 let favfruit= ['APPLE', 'ORANGE', 'BANANA' ];
 
-let c7 = 0 ;
+let c77 = 0 ;
 for (let i=0 ; i<6 ; i++ )
 {let ansnwer7 = prompt('guess one of my favourite fruits ?' );
 ansnwer7=ansnwer7.toUpperCase();
     if ( ansnwer7===favfruit[0] || ansnwer7===favfruit[1] || ansnwer7===favfruit[2]){
-    alert ( 'correct  ' + ansnwer7+ ' is one of my favourite fruites . my favourite fruites are : ' + favfruit );
+    alert ( 'correct  ' + ansnwer7 + ' is one of my favourite fruites . my favourite fruites are : ' + favfruit );
     score++;
     break;
 }else { alert('wrong, guess again !');
-c7++;}
-}
-   
-    
-if (c7==6){alert ('Your chances of guessing have expired . my favourite fruites are :' + favfruit) ;
-break;}
+c77++;}
+}   
+if (c77==6){alert ('Your chances of guessing have expired . my favourite fruites are :' + favfruit) ;}
 
 alert ('your score is' + score + 'out of 7');
 
