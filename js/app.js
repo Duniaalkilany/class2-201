@@ -228,7 +228,7 @@ qq6++
 if (qq6==4){alert ('Your chances of guessing have expired, the correct answer is 100') ;}
 
 
-alert ('Let\'s play another game , guess what is the answer to these seven questions, you have 6 guessing chances for each question , every time you will answer the correct answer, you will get one score, when you finish answering all the questions, I will show you your score!!');
+alert ('Let\'s play another game , guess what is the answer to these seven questions, you have 6 guessing chances for each question , every time you will answer the correct answer , you will get one score, when you finish answering all the questions , I will show you your score!!');
 
 let score =0; 
 
@@ -359,6 +359,6 @@ c77++;}
 }   
 if (c77==6){alert ('Your chances of guessing have expired . my favourite fruites are :' + favfruit) ;}
 
-alert ('your score is' + score + 'out of 7');
+alert ('your score is' + score + ' out of 7');
 
 alert ('Thank you  ' +  namee  +  ' for visiting my website, stay well' );
