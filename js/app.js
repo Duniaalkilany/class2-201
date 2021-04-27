@@ -292,14 +292,14 @@ if (c3==6){alert (' Your chances of guessing have expired, my favourite films ar
 
 
 
-let favsinger = ['AMR DIAB', 'FAIROUZ ', 'ELISSA ' ];
+let favsinger = ['AMR DIAB', 'FAIROUZ', 'ELISSA' ];
 
 let c4 = 0 ;
 for (let i=0 ; i<6 ; i++ )
 {let ansnwer4 = prompt('guess one my favourite singers ?' );
 ansnwer4=ansnwer4.toUpperCase();
     if ( ansnwer4===favsinger[0] || ansnwer4===favsinger[1] || ansnwer4===favsinger[2]){
-    alert ( 'correct  ' + ansnwer4 + 'is one of my favourite singers . my favourite singers are : ' + favsinger );
+    alert ( 'correct  ' + ansnwer4 + ' is one of my favourite singers . my favourite singers are : ' + favsinger );
     score++;
     break;
 }else { alert('wrong , guess again !');
