@@ -8,10 +8,12 @@ color: white;}
 
 
 
-p {font-weight: normal;
+ul {font-weight: normal;
 font-size: large;
 color: white;
 background-color: black;
+
+list-style: square;
 margin-left: 30px;
 margin-right: 30px ;}
 
