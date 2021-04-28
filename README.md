@@ -9,6 +9,10 @@
 
    ### by using htmk I maked the structure , by using js I maked the interactive which I did it by maked a gusseing game ( in which I asked the user to answer questions) and by using css I built the style .
 
+## navigator name : Dunia al kilany
+ ## driver name : Suzan Amer
+  ### we work togather the navigator ***DUNIA***  indicated to me to add function to each question and call it and THE DRIVER  ***SUZAN***  write the code .
+  
 
 
 
