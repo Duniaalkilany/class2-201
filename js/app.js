@@ -138,7 +138,7 @@ switch (country.toUpperCase()) {
 question5 ();
 
 
-alert ( namee + 'Let\'s play the guessing game , answer this question with a number .let\'s gooo !!!');
+alert ( namee + ' Let\'s play the guessing game , answer this question with a number , you have 4 guessing chances , let\'s gooo !!!');
 function question6 (){
 let qq1 = 0 ;
 for (let i=0 ; i<4 ; i++ ){
@@ -170,20 +170,20 @@ question6 ();
 
 
 
-alert ('Let\'s play another game , guess what is the answer to this question , you have 6 guessing chances for each question ! ');
+alert ('Let\'s play another game , guess what is the answer to this question , you have 6 guessing chances  ! ');
 function question7 (){
 
-let favfood = ['MANSAF', 'BURGER', 'FISH' ];
+let favfood = ['MANSAF' , 'BURGER' , 'FISH' ];
 
 let c1 = 0 ;
 for (let i=0 ; i<6 ; i++ )
 {let ansnwer1 = prompt('guess one of my fav food ?' );
 ansnwer1=ansnwer1.toUpperCase();
-    if ( ansnwer1===favfood[0] || ansnwer1===favfood[1] || ansnwer1===favfood[2]){
-    alert ( ' correct  ' + ansnwer1 + ' is one of my favourite foods . my favourite foods are : ' + favfood);
+ if ( ansnwer1===favfood[0] || ansnwer1===favfood[1] || ansnwer1===favfood[2] )
+    {alert ( ' correct  ' + ansnwer1 + ' is one of my favourite foods . my favourite foods are : ' + favfood);
     score++;
     break;
-}else { alert('wrong , guess again !');
+} else { alert('wrong , guess again !');
 c1++;} 
 }
    
@@ -194,6 +194,7 @@ if (c1==6){alert (' Your chances of guessing have expired , my favourite foods a
 //console.log(question7());
 question7 ();
 
-alert ('your score is ' +  score + '  out of 7');
+alert ('your score is ' +  score + ' out of 7');
 
-alert ('Thank you  ' +  namee  +  ' for visiting my website, stay well' );
+alert ('Thank you' +  namee  +  ' for visiting my website, stay well' );
+

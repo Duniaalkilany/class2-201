@@ -11,7 +11,7 @@
 
 ## navigator name : Dunia al kilany
  ## driver name : Suzan Amer
-  ### we work togather the navigator ***DUNIA***  indicated to me to add function to each question and call it and THE DRIVER  ***SUZAN***  write the code .
+  ### we work togather the navigator ***DUNIA***  indicated to the Driver ***suzan*** to add function to each question and call it and THE DRIVER  ***SUZAN***  write the code .
   
 
 
