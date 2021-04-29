@@ -1,86 +1,85 @@
 'use strict';
 
 
-let score =0; 
+
 
 let namee = prompt('Hello Hello , what\'s your name ?!');
 alert ('hello ' + namee + ' Welcom to my site , Enjoy !' );
 
 
-
+let score =0; 
 function question1 (){
 
-
+   
 let college = prompt('Is my college major is electrical engineering?');
-//console.log(college)
+
 
 
 switch (college.toUpperCase()) {
     case 'YES':
     case 'Y' :
         alert ('Your answer is correct ');
-        score++;
-       // console.log('correct');
        score++;
+        console.log(score);
         break;
       
     case 'NO':
     case 'N':
         alert ('Your answer is false !');
-        //console.log('false'); 
+        
         break; 
         default: 
         alert ('invalid , You have to answer yes(y) or no(n)'); 
 }
 }
-//console.log(question1());
+
 
 question1 ();
 
 function question2 (){
 let color = prompt('Is my favorite color red?');
-//console.log(color)
+
 
 switch (color.toUpperCase()) {
     case 'YES' :
         case 'Y' :
         alert ('Your answer is correct ');
-      //  console.log('correct');
+    
       score++;
         break;
     case 'NO' :
         case 'N':
         alert ('Your answer is false !');
-       // console.log('false'); 
+       
         break;
         default: 
         alert ('invalid , You have to answer yes(y) or no(n)'); 
      } 
     }
-  // console.log(question2());
+  
 question2();
 
 
-//console.log(question3());
+
 question3();
 function question3 (){
 
 let hoppy = prompt('Is my favorite hobby video games?');
 
-//console.log(hoppy)
+
 
 
 switch (hoppy.toUpperCase()) {
     case 'YES' :
         case 'Y' :
         alert ('Your answer is correct ');
-       // console.log('correct');
+       
        score++;
         break;
     case 'NO' :
         case 'N':
         alert ('Your answer is false !');
-       // console.log('false'); 
+      
         break;
         default: 
         alert ('invalid , You have to answer yes(y) or no(n)');   
@@ -90,52 +89,54 @@ switch (hoppy.toUpperCase()) {
 
 function question4 (){
 let team = prompt('Is your favorite football team Real Madrid?');
-//console.log(team)
+
 
 
 switch (team.toUpperCase()) {
     case 'YES' :
         case 'Y' :
         alert ('Your answer is correct ');
-       // console.log('correct');
+       
        score++;
         break;
     case 'NO' :
         case 'N':
         alert ('Your answer is false !');
-        //console.log('false'); 
+        
         break; 
         default: 
         alert ('invalid , You have to answer yes(y) or no(n)');   
 }
 }
-//console.log(question4());
+
 question4 ();
 
 
 function question5 (){
 let country= prompt('Is my favorite country Dubai?');
-//console.log(country)
+
 
 
 
 switch (country.toUpperCase()) {
     case 'YES' :
+        case'Y':
         alert ('Your answer is correct ');
-       // console.log('correct');
+  
        score++;
         break;
     case 'NO' :
         case 'N':
         alert ('Your answer is false !');
-        //console.log('false'); 
+        
         break;  
         default: 
         alert ('invalid , You have to answer YES or NO (Y/N) !');  
 }
 }
-//console.log( question5());
+
 question5 ();
+
 
 
 alert ( namee + ' Let\'s play the guessing game , answer this question with a number , you have 4 guessing chances , let\'s gooo !!!');
@@ -165,7 +166,7 @@ if (qq1==4){alert (' Your chances of guessing have expired , the correct answer 
 
 
 }
-//console.log(question6());
+
 question6 ();
 
 
@@ -191,7 +192,7 @@ c1++;}
 if (c1==6){alert (' Your chances of guessing have expired , my favourite foods are : ' + favfood ) ;}
 
 }
-//console.log(question7());
+
 question7 ();
 
 alert ('your score is ' +  score + ' out of 7');
