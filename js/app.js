@@ -170,32 +170,41 @@ if (qq1==4){alert (' Your chances of guessing have expired , the correct answer 
 question6 ();
 
 
-
 alert ('Let\'s play another game , guess what is the answer to this question , you have 6 guessing chances  ! ');
-function question7 (){
 
-let favfood = ['MANSAF' , 'BURGER' , 'FISH' ];
+ function question7(){
+ 
+    let userFavFood = ['mansaf', 'burger', 'fish'];
+    let c = 0 ;
+    for (let i = 0; i < 6; i++) {
+        
+        let userAnsw = prompt('Can you guess my favorite food?');
+        let guess = userAnsw.toLowerCase();
 
-let c1 = 0 ;
-for (let i=0 ; i<6 ; i++ )
-{let ansnwer1 = prompt('guess one of my fav food ?' );
-ansnwer1=ansnwer1.toUpperCase();
- if ( ansnwer1===favfood[0] || ansnwer1===favfood[1] || ansnwer1===favfood[2] )
-    {alert ( ' correct  ' + ansnwer1 + ' is one of my favourite foods . my favourite foods are : ' + favfood);
-    score++;
-    break;
-} else { alert('wrong , guess again !');
-c1++;} 
-}
+        for (let j = 0; j < userFavFood.length; j++){
+            if (guess === userFavFood[j]) {
+                alert('Congrats you got it right!!! ' + guess + ' is one of my favourite food ; my top 3 favourite food are : ' + userFavFood);
+                score++;
+                i = 6;
+                break;
+            }
+        }
+    if (i!==6){
+    alert('Sorry wrong answer, try again !!');
+c++; }
+
+    if (c==6){
+    alert('Your chances of guessing have expired , my favourite foods are : ' + userFavFood ); }
+ 
    
-    
-if (c1==6){alert (' Your chances of guessing have expired , my favourite foods are : ' + favfood ) ;}
-
 }
 
-question7 ();
+    }
 
-alert ('your score is ' +  score + ' out of 7');
+question7();
 
-alert ('Thank you' +  namee  +  ' for visiting my website, stay well' );
+alert ('your score is ' + score +' out of 7');
+
+alert ('Thank you ' + namee + ' for visiting my website, stay well' );
+
 
